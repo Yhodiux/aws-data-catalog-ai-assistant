@@ -197,8 +197,6 @@ This provides a simple validation that the core application is not tied to a sin
 
 ## Architecture
 
-> **Architecture diagram:** add `docs/architecture.png` here before publishing.
-
 ![AWS Data Catalog AI Assistant architecture](docs/architecture.png)
 
 The raw dataset is processed locally by the profiler. The application sends the resulting metadata context to Amazon Bedrock rather than sending the complete dataset.
