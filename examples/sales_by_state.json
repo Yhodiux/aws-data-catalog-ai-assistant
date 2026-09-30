@@ -1,0 +1,40 @@
+{
+  "dataset": {
+    "name": "sales_by_state",
+    "domain": "Sales Analytics",
+    "layer": "Gold",
+    "description": null
+  },
+  "columns": [
+    {
+      "name": "customer_state",
+      "type": "string",
+      "description": null,
+      "business_definition": null
+    },
+    {
+      "name": "total_orders",
+      "type": "bigint",
+      "description": null,
+      "business_definition": null
+    },
+    {
+      "name": "total_items",
+      "type": "bigint",
+      "description": null,
+      "business_definition": null
+    },
+    {
+      "name": "total_sales",
+      "type": "decimal",
+      "description": null,
+      "business_definition": null
+    },
+    {
+      "name": "avg_ticket",
+      "type": "decimal",
+      "description": null,
+      "business_definition": null
+    }
+  ]
+}
